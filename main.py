@@ -15,7 +15,13 @@ person_3 = Person("Mathilde", 77)
 personen_alter = add(person_1.age, person_2.age, person_3.age)
 print(personen_alter)
 
+class Animal:
+    def __init__(self, legs, art):
+        self.legs = legs
+        self.art = art
+
 class Vehicle:
     def __init__(self, wheels, engine):
         self.wheels = wheels
         self.engine = engine
+
