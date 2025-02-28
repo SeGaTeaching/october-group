@@ -10,3 +10,11 @@ def multiply(*args):
         result *= arg
     return result
 
+def faculty(n):
+    if n == 1:
+        return n
+    else:
+        return n * faculty(n-1)
+    
+print(faculty(4))
+
